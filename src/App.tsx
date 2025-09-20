@@ -2,12 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <p>Hello 👋 I’m learning React from Figma and today's date is what!</p>
+       <p>Hello 👋 I’m learning React from Figma and today's date is what exactly!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
