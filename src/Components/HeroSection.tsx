@@ -1,4 +1,3 @@
-import { Badge } from "./Components/Badge";
 export function HeroSection () {
     return (
         <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
@@ -16,9 +15,6 @@ export function HeroSection () {
       <div className="relative z-10 w-full max-w-none mx-auto px-1 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-8">
           <div className="space-y-4">
-            <Badge variant="secondary" className="mb-4">
-              Comprehensive Animal Care & Climate Action
-            </Badge>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">
               Doctor <span className="text-green-400">Hulk</span>
             </h1>
