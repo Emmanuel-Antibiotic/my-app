@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Stethoscope, Calendar, Video, Users, Leaf, BookOpen, ShoppingBag } from "lucide-react";
-
-export default function Home() {
+export default function HeroSection() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
